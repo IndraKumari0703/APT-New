@@ -21,6 +21,7 @@ To run the code, please follow these steps:
 6. When prompted, select 'no' for graph generation and 'yes' for entire training.
 
 7. The code will execute and perform the necessary operations.
+8. To check the previous results please use 'results' folder
 
 
 

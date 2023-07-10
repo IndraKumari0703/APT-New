@@ -1,4 +1,4 @@
-#[2016]-"The whale optimization algorithm"]
+
 
 import numpy as np
 from numpy.random import rand

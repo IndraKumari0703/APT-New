@@ -1,8 +1,8 @@
-# APT-New
+# DAPT
 # To run the code please use 
-# # APT-New
+# # DAPT
 
-This repository contains code for the APT-New project.
+This repository contains code for the DAPT project.
 
 ## Instructions
 

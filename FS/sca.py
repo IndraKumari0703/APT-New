@@ -1,4 +1,4 @@
-#[2016]-"SCA: A sine cosine algorithm for solving optimization  problems"
+
 
 import numpy as np
 from numpy.random import rand

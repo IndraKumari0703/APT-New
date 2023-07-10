@@ -15,7 +15,7 @@ To run the code, please follow these steps:
 3. Navigate to the project directory.
 
 4. Run the following command:
-   # python3 Main.py
+   ## python3 Main.py
 
 
 6. When prompted, select 'no' for graph generation and 'yes' for entire training.

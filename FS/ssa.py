@@ -1,4 +1,4 @@
-#[2017]-"Salp swarm algorithm: A bio-inspired optimizer for engineering design problems"
+
 
 import numpy as np
 from numpy.random import rand

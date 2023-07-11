@@ -1,4 +1,4 @@
-#[2014]-"Grey wolf optimizer"
+
 
 import numpy as np
 from numpy.random import rand

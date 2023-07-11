@@ -1,4 +1,4 @@
-# [2019]-"Harris hawks optimization: Algorithm and applications"
+
 
 import numpy as np
 from numpy.random import rand

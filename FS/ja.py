@@ -1,4 +1,3 @@
-#[2016]-"Jaya: A simple and new optimization algorithm for solving  constrained and unconstrained optimization problems"
 
 import numpy as np
 from numpy.random import rand

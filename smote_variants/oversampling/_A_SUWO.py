@@ -13,30 +13,6 @@ _logger= logger
 __all__= ['A_SUWO']
 
 class A_SUWO(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @article{a_suwo,
-                        title = "Adaptive semi-unsupervised weighted
-                                    oversampling (A-SUWO) for imbalanced
-                                    datasets",
-                        journal = "Expert Systems with Applications",
-                        volume = "46",
-                        pages = "405 - 416",
-                        year = "2016",
-                        issn = "0957-4174",
-                        doi = "https://doi.org/10.1016/j.eswa.2015.10.031",
-                        author = "Iman Nekooeimehr and Susana K. Lai-Yuen",
-                        keywords = "Imbalanced dataset, Classification,
-                                        Clustering, Oversampling"
-                        }
-
-    Notes:
-        * Equation (7) misses a division by R_j.
-        * It is not specified how to sample from clusters with 1 instances.
-    """
-
     categories = [OverSampling.cat_extensive,
                   OverSampling.cat_uses_clustering,
                   OverSampling.cat_density_based,

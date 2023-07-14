@@ -1,4 +1,4 @@
-#[2010]-"Firefly algorithm,stochastic test functions and design optimization" 
+# "Firefly algorithm,stochastic test functions and design optimization" 
 
 import numpy as np
 from numpy.random import rand

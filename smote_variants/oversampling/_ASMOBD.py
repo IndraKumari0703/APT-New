@@ -11,32 +11,6 @@ _logger= logger
 __all__= ['ASMOBD']
 
 class ASMOBD(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @INPROCEEDINGS{asmobd,
-                            author={Senzhang Wang and Zhoujun Li and Wenhan
-                                    Chao and Qinghua Cao},
-                            booktitle={The 2012 International Joint Conference
-                                        on Neural Networks (IJCNN)},
-                            title={Applying adaptive over-sampling technique
-                                    based on data density and cost-sensitive
-                                    SVM to imbalanced learning},
-                            year={2012},
-                            volume={},
-                            number={},
-                            pages={1-8},
-                            doi={10.1109/IJCNN.2012.6252696},
-                            ISSN={2161-4407},
-                            month={June}}
-
-    Notes:
-        * In order to use absolute thresholds, the data is standardized.
-        * The technique has many parameters, not easy to find the right
-            combination.
-    """
-
     categories = [OverSampling.cat_extensive,
                   OverSampling.cat_noise_removal,
                   OverSampling.cat_uses_clustering,

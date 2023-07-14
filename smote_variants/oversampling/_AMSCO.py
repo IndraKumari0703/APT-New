@@ -13,46 +13,7 @@ _logger= logger
 
 __all__= ['AMSCO']
 
-class AMSCO(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @article{amsco,
-                        title = "Adaptive multi-objective swarm fusion for
-                                    imbalanced data classification",
-                        journal = "Information Fusion",
-                        volume = "39",
-                        pages = "1 - 24",
-                        year = "2018",
-                        issn = "1566-2535",
-                        doi = "https://doi.org/10.1016/j.inffus.2017.03.007",
-                        author = "Jinyan Li and Simon Fong and Raymond K.
-                                    Wong and Victor W. Chu",
-                        keywords = "Swarm fusion, Swarm intelligence
-                                    algorithm, Multi-objective, Crossover
-                                    rebalancing, Imbalanced data
-                                    classification"
-                        }
-
-    Notes:
-        * It is not clear how the kappa threshold is used, I do use the RA
-            score to drive all the evolution. Particularly:
-
-            "In the last phase of each iteration, the average Kappa value
-            in current non-inferior set is compare with the latest threshold
-            value, the threshold is then increase further if the average value
-            increases, and vice versa. By doing so, the non-inferior region
-            will be progressively reduced as the Kappa threshold lifts up."
-
-        I don't see why would the Kappa threshold lift up if the kappa
-        thresholds are decreased if the average Kappa decreases ("vice versa").
-
-        * Due to the interpretation of kappa threshold and the lack of detailed
-            description of the SIS process, the implementation is not exactly
-            what is described in the paper, but something very similar.
-    """
-
+class AMSCO(OverSampling):  
     categories = [OverSampling.cat_changes_majority,
                   OverSampling.cat_memetic,
                   OverSampling.cat_uses_classifier,

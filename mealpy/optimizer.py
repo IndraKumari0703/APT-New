@@ -1,5 +1,3 @@
-
-
 import numpy as np
 from math import gamma
 from copy import deepcopy

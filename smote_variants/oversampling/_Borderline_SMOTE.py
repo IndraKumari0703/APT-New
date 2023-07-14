@@ -13,28 +13,6 @@ __all__= ['Borderline_SMOTE1',
 
 
 class Borderline_SMOTE1(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @InProceedings{borderlineSMOTE,
-                            author="Han, Hui
-                            and Wang, Wen-Yuan
-                            and Mao, Bing-Huan",
-                            editor="Huang, De-Shuang
-                            and Zhang, Xiao-Ping
-                            and Huang, Guang-Bin",
-                            title="Borderline-SMOTE: A New Over-Sampling Method
-                                     in Imbalanced Data Sets Learning",
-                            booktitle="Advances in Intelligent Computing",
-                            year="2005",
-                            publisher="Springer Berlin Heidelberg",
-                            address="Berlin, Heidelberg",
-                            pages="878--887",
-                            isbn="978-3-540-31902-3"
-                            }
-    """
-
     categories = [OverSampling.cat_sample_ordinary,
                   OverSampling.cat_extensive,
                   OverSampling.cat_borderline,

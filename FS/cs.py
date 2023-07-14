@@ -1,4 +1,4 @@
-#[2009]-"Cuckoo search via Levy flights" 
+# "Cuckoo search via Levy flights" 
 
 import numpy as np
 from numpy.random import rand

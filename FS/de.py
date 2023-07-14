@@ -1,4 +1,4 @@
-#[1997]-"Differential evolution - A simple and efficient heuristic for global optimization over continuous spaces"
+# "Differential evolution - A simple and efficient heuristic for global optimization over continuous spaces"
 
 import numpy as np
 from numpy.random import rand

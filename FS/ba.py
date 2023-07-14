@@ -1,5 +1,3 @@
-#[2010]-"A new metaheuristic bat-inspired algorithm"
-
 import numpy as np
 from numpy.random import rand
 from FS.functionHO import Fun

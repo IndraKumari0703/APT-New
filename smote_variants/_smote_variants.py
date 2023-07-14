@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 15 11:15:24 2018
-
-@author: gykovacs
-"""
-
 # import system packages
 import os
 import pickle
@@ -67,9 +59,9 @@ from .oversampling._ADASYN import ADASYN
 from .oversampling._polynom_fit_SMOTE import polynom_fit_SMOTE
 from .noise_removal import NeighborhoodCleaningRule
 
-__author__ = "György Kovács"
+__author__ = "Indra Kumari"
 __license__ = "MIT"
-__email__ = "gyuriofkovacs@gmail.com"
+__email__ = "kumariindra7@gmail.com"
 
 # exported names
 __all__ = ['__author__',

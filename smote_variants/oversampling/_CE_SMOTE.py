@@ -11,43 +11,6 @@ _logger= logger
 __all__= ['CE_SMOTE']
 
 class CE_SMOTE(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @INPROCEEDINGS{ce_smote,
-                                author={Chen, S. and Guo, G. and Chen, L.},
-                                booktitle={2010 IEEE 24th International
-                                            Conference on Advanced Information
-                                            Networking and Applications
-                                            Workshops},
-                                title={A New Over-Sampling Method Based on
-                                        Cluster Ensembles},
-                                year={2010},
-                                volume={},
-                                number={},
-                                pages={599-604},
-                                keywords={data mining;Internet;pattern
-                                            classification;pattern clustering;
-                                            over sampling method;cluster
-                                            ensembles;classification method;
-                                            imbalanced data handling;CE-SMOTE;
-                                            clustering consistency index;
-                                            cluster boundary minority samples;
-                                            imbalanced public data set;
-                                            Mathematics;Computer science;
-                                            Electronic mail;Accuracy;Nearest
-                                            neighbor searches;Application
-                                            software;Data mining;Conferences;
-                                            Web sites;Information retrieval;
-                                            classification;imbalanced data
-                                            sets;cluster ensembles;
-                                            over-sampling},
-                                doi={10.1109/WAINA.2010.40},
-                                ISSN={},
-                                month={April}}
-    """
-
     categories = [OverSampling.cat_extensive,
                   OverSampling.cat_borderline,
                   OverSampling.cat_uses_clustering,

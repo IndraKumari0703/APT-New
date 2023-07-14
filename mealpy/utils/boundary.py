@@ -1,8 +1,4 @@
-
-
 import operator
-
-
 def is_in_bound(value, bound):
     ops = None
     if type(bound) is tuple:

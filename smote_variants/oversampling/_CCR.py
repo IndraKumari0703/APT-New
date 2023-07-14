@@ -10,26 +10,6 @@ _logger= logger
 __all__= ['CCR']
 
 class CCR(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @article{ccr,
-                    author = {Koziarski, Michał and Wozniak, Michal},
-                    year = {2017},
-                    month = {12},
-                    pages = {727–736},
-                    title = {CCR: A combined cleaning and resampling algorithm
-                                for imbalanced data classification},
-                    volume = {27},
-                    journal = {International Journal of Applied Mathematics
-                                and Computer Science}
-                    }
-
-    Notes:
-        * Adapted from https://github.com/michalkoziarski/CCR
-    """
-
     categories = [OverSampling.cat_extensive]
 
     def __init__(self,

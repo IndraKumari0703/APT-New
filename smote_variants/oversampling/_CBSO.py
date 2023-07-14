@@ -10,32 +10,6 @@ _logger= logger
 __all__= ['CBSO']
 
 class CBSO(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @InProceedings{cbso,
-                            author="Barua, Sukarna
-                            and Islam, Md. Monirul
-                            and Murase, Kazuyuki",
-                            editor="Lu, Bao-Liang
-                            and Zhang, Liqing
-                            and Kwok, James",
-                            title="A Novel Synthetic Minority Oversampling
-                                    Technique for Imbalanced Data Set
-                                    Learning",
-                            booktitle="Neural Information Processing",
-                            year="2011",
-                            publisher="Springer Berlin Heidelberg",
-                            address="Berlin, Heidelberg",
-                            pages="735--744",
-                            isbn="978-3-642-24958-7"
-                            }
-
-    Notes:
-        * Clusters containing 1 element induce cloning of samples.
-    """
-
     categories = [OverSampling.cat_uses_clustering,
                   OverSampling.cat_density_based,
                   OverSampling.cat_extensive,

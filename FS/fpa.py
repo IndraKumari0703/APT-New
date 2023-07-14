@@ -1,4 +1,4 @@
-#[2012]-"Flower pollination algorithm for global optimization"
+# "Flower pollination algorithm for global optimization"
 
 import numpy as np
 from numpy.random import rand

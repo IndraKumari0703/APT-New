@@ -11,55 +11,7 @@ _logger= logger
 
 __all__= ['Assembled_SMOTE']
 
-class Assembled_SMOTE(OverSampling):
-    """
-    References:
-        * BibTex::
-
-            @INPROCEEDINGS{assembled_smote,
-                            author={Zhou, B. and Yang, C. and Guo, H. and
-                                        Hu, J.},
-                            booktitle={The 2013 International Joint Conference
-                                        on Neural Networks (IJCNN)},
-                            title={A quasi-linear SVM combined with assembled
-                                    SMOTE for imbalanced data classification},
-                            year={2013},
-                            volume={},
-                            number={},
-                            pages={1-7},
-                            keywords={approximation theory;interpolation;
-                                        pattern classification;sampling
-                                        methods;support vector machines;trees
-                                        (mathematics);quasilinear SVM;
-                                        assembled SMOTE;imbalanced dataset
-                                        classification problem;oversampling
-                                        method;quasilinear kernel function;
-                                        approximate nonlinear separation
-                                        boundary;mulitlocal linear boundaries;
-                                        interpolation;data distribution
-                                        information;minimal spanning tree;
-                                        local linear partitioning method;
-                                        linear separation boundary;synthetic
-                                        minority class samples;oversampled
-                                        dataset classification;standard SVM;
-                                        composite quasilinear kernel function;
-                                        artificial data datasets;benchmark
-                                        datasets;classification performance
-                                        improvement;synthetic minority
-                                        over-sampling technique;Support vector
-                                        machines;Kernel;Merging;Standards;
-                                        Sociology;Statistics;Interpolation},
-                            doi={10.1109/IJCNN.2013.6707035},
-                            ISSN={2161-4407},
-                            month={Aug}}
-
-    Notes:
-        * Absolute value of the angles extracted should be taken.
-            (implemented this way)
-        * It is not specified how many samples are generated in the various
-            clusters.
-    """
-
+class Assembled_SMOTE(OverSampling):                      
     categories = [OverSampling.cat_extensive,
                   OverSampling.cat_uses_clustering,
                   OverSampling.cat_borderline,
